@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>
+Data Science</title>
+<style>
+.btn {
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #19EBB6;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+}
+.td-space tr td{
+ padding:5px;
+}
+.small-text tr td a{
+  font-size:15px;
+  padding:5px;
+  margin:2px;
+}
+</style
+</head>
+<body>
+<center><h4>MCA Department enjoy your exam</h4>
+	<table class="small-text">
+	<tr>
+	<td><a href="ex1.pdf" download="1" class="btn"><span>1</span> features of R</a></td>
+	<td><a href="ex2.pdf" download="1" class="btn"><span>2</span> Add two number in R Language</a></td>
+	<td><a href="ex3.pdf" download="1" class="btn"><span>3</span> uni,bi,multi variate analysis</a></td>
+	
+	</tr>
+	<tr>
+	<td><a href="ex4.pdf" download="1" class="btn"><span>4</span> skewness in R</a></td>
+	<td><a href="ex5.pdf" download="1" class="btn"><span>5</span> Kurtosis in R</a></td>
+	<td><a href="ex6.pdf" download="1" class="btn"><span>6</span> linear regression</a></td>
+	</tr>
+	<tr>
+	<td><a href="ex7.pdf" download="1" class="btn"><span>7</span> logistic regression</a></td>
+	<td><a href="ex8.pdf" download="1" class="btn"><span>8</span> DV Bar Plot</a></td>
+	<td><a href="ex9.pdf" download="1" class="btn"><span>9</span> DV Box plot</a></td>
+	</tr>
+	<tr>
+	<td><a href="ex10.pdf" download="1" class="btn"><span>10</span> DV Histogram</a></td>
+	<td><a href="ex11.pdf" download="1" class="btn"><span>11</span> DV Line Graph</a></td>
+	<td><a href="ex12.pdf" download="1" class="btn"><span>12</span> DV Pie Chart</a></td>
+	</tr>
+	<tr>
+	<td><a href="ex13.pdf" download="1" class="btn"><span>13</span> SVM with IRTS Data</a></td>
+	<td><a href="ex14.pdf" download="1" class="btn"><span>14</span> Install,Run Hadoop and HDFS</a></td>
+	<td><a href="ex15.pdf" download="1" class="btn"><span>15</span> MapReduce for Job</a></td>
+	</tr>
+	
+	<tr>
+	<td><a href="ex16.pdf" download="1" class="btn"><span>16</span> Implement MR Program</a></td>
+	<td><a href="ex17.pdf" download="1" class="btn"><span>17</span> features of R</a></td>
+	<td><a href="ex18.pdf" download="1" class="btn"><span>18</span> Install,Run Hive</a></td>
+	</tr><tr>
+	<td><a href="ex19.pdf" download="1" class="btn"><span>19</span> Product Recommender System</a></td>
+	</tr>
+</table>
+</center>
+<center><h4>Source File</h4>
+	<table class="td-space">
+	<tr>
+	<td><a href="s2.pdf" download="1" class="btn"><span>2</span> </a></td>
+	<td><a href="s3.pdf" download="1" class="btn"><span>3</span> </a></td>
+	<td><a href="s4.pdf" download="1" class="btn"><span>4</span> </a></td>
+	</tr>
+	<tr>
+	<td><a href="s5.pdf" download="1" class="btn"><span>5</span> </a></td>
+	<td><a href="s6.pdf" download="1" class="btn"><span>6</span> </a></td>
+	<td><a href="s7.pdf" download="1" class="btn"><span>7</span> </a></td>
+	<td><a href="s8.pdf" download="1" class="btn"><span>8</span> </a></td>
+	</tr>
+	<tr>
+	<td><a href="s9.pdf" download="1" class="btn"><span>9</span></a></td>
+	<td><a href="s10.pdf" download="1" class="btn"><span>10</span></a></td>
+	<td><a href="s11.pdf" download="1" class="btn"><span>11</span></a></td>
+	<td><a href="s12.pdf" download="1" class="btn"><span>12</span></a></td>
+	</tr>
+	<tr>
+	<td><a href="s15.pdf" download="1" class="btn"><span>15</span></a></td>
+	<td><a href="s16.pdf" download="1" class="btn"><span>16</span></a></td>
+	</tr>
+	<tr>
+	<td><a href="s17.pdf" download="1" class="btn"><span>17</span></a></td>
+	<td><a href="s18.pdf" download="1" class="btn"><span>18</span></a></td>
+	<td><a href="s19.pdf" download="1" class="btn"><span>19</span></a></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

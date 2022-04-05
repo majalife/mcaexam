@@ -1,0 +1,28 @@
+1.PLATYKURTIC:
+
+x <- c(rep(61, each = 10), rep(64, each = 18),
+rep(65, each = 23), rep(67, each = 32), rep(70, each = 27),
+rep(73, each = 17))
+png(file = "platykurtic.png")
+print(kurtosis(x))
+hist(x)
+dev.off()
+
+2.MESORKURTIC:
+
+library(moments)
+x <- rnorm(100)
+png(file = "mesokurtic.png")
+print(kurtosis(x))
+hist(x)
+dev.off()
+
+3.LEPTOKURTIC:
+
+library(moments)
+x <- c(rep(61, each = 2), rep(64, each = 5),
+rep(65, each = 42), rep(67, each = 12), rep(70, each = 10))
+png(file = "leptokurtic.png")
+print(kurtosis(x))
+hist(x)
+dev.off()

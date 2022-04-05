@@ -1,0 +1,33 @@
+install.packages("stats")
+install.packages("dplyr")
+library(stats)
+library(dplyr)
+mydata = iris
+str(mydata)
+
+1.Data Summarization
+
+SL = mydata$Sepal.Length
+mean(SL)
+median(SL)
+Mode(SL)
+sd(SL)
+var(SL)
+quantile(SL)
+
+2.Data Visualization
+
+str(mydata)
+Species = mydata$Species
+hist(SL)
+table(Species)
+barplot(table(Species))
+
+
+3.Data Normalization
+
+str(mydata)
+mydata_numeric = select(mydata,c(1,2,3,4))
+zscore_mydata = scale(mydata_numeric)
+
+View(zscore_mydata)

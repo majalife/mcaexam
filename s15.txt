@@ -1,0 +1,62 @@
+
+1. Download
+
+MapReduceClient.jar
+(Link: https://github.com/MuhammadBilalYar/HADOOPINSTALLATION-ON-
+WINDOW-10/blob/master/MapReduceClient.jar)
+
+2. Download Input_file.txt
+
+(Link: https://github.com/MuhammadBilalYar/HADOOPINSTALLATION-ON-
+WINDOW- 10/blob/master/input_file.txt)Place both files in "C:/"
+Hadoop Operation:
+
+3. Open cmd in Administrative mode and move
+to
+
+"C:/Hadoop-2.8.0/sbin" andstart cluster
+Start-all.cmd
+
+4. Create an input directory in
+HDFS.
+
+hadoop fs -mkdir /input_dir
+
+
+5. Copy the input text file named input_file.txt in the input directory (input_dir)of
+HDFS.
+
+hadoop fs -put C:/input_file.txt /input_dir
+
+
+6. Verify input_file.txt available in HDFS input directory (input_dir).
+hadoop
+
+fs -ls /input_dir/
+
+
+7. Verify content of the copied file.
+
+hadoop dfs -cat /input_dir/input_file.txt
+
+8. Run MapReduceClient.jar and also provide input and out directories.
+
+hadoop jar C:/MapReduceClient.jar wordcount /input_dir /output_dir
+
+9. Verify content for generated output file.
+
+hadoop dfs -cat /output_dir/*
+
+Some Other useful commands
+
+10. To leave Safe mode
+
+hadoop dfsadmin –safemode leave
+
+11. To delete file from HDFS directory
+
+hadoop fs -rm -r /iutput_dir/input_file.txt
+
+12. To delete directory from HDFS directory
+
+hadoop fs -rm -r /iutput_dir

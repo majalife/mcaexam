@@ -1,0 +1,51 @@
+Step 1: Verifying Java Installation
+
+$java -version
+
+Step 2: Verifying Scala installation
+
+$scala -version
+
+Step 3: Downloading Scala
+
+Download: Scala tar file
+
+Step 4: Installing Scala
+
+Extract: Scala tar file
+
+Type: $ tar xvf scala-2.11.6.tgz
+Move Scala software files to directory: /usr/local/scala
+$ su –
+Password:
+# cd /home/Hadoop/Downloads/
+# mv scala-2.11.6 /usr/local/scala
+
+Set PATH for Scala
+Use: $ export PATH = $PATH:/usr/local/scala/bin
+Verifying Scala Installation
+$scala -version
+
+
+Step 5: Downloading Apache Spark
+
+Download Spark. spark-1.3.1-bin-hadoop2.6 version.
+Spark tar file
+
+Step 6: Installing Spark
+Extracting Spark tar
+$ tar xvf spark-1.3.1-bin-hadoop2.6.tgz
+Moving Spark software files to directory:/usr/local/spark
+$ su –
+Password:
+# cd /home/Hadoop/Downloads/
+# mv spark-1.3.1-bin-hadoop2.6 /usr/local/spark
+
+Setting up the environment for Spark
+Add:~/.bashrc file.
+export PATH=$PATH:/usr/local/spark/bin
+$ source ~/.bashrc
+
+Step 7: Verifying the Spark Installation
+opening Spark shell.
+$spark-shell
